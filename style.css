@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Akshar', sans-serif ;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 17vw;
+    height: 99vh;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    border-left: 0.5px  rgba(242, 242, 242, 1);
+    border-right: 0.5px solid rgba(242, 242, 242, 1);
+}
+.aside-body{
+    display: flex;
+    position: fixed;
+    left: 60vw;
+    justify-content: center;
+    align-items: center;
+    width: 38vw;
+    height: 99vh;
+    font-family:'Akshar', sans-serif ;
+}
+.logo{
+    position: fixed;
+}
+.logo-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.nav-btn{
+    display: flex;
+    position: fixed;
+    top: 35vh;
+    flex-direction: column;
+}
+.navimg{
+    height: 25px;
+    width: 25px;
+    margin: 20px;
+}
+.article{
+    width: 80%;
+    height: 100%;
+}
+
+
+/*Body design*/
+
+.user-name{
+    font-size: 13px;
+    font-family:'Akshar', sans-serif;
+}
+.card-date{
+    margin-left: 5px;
+    font-size: 13px;
+}
+.card-user-details{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 0.5px solid rgba(242, 242, 242, 1);
+}
+.card-img{
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.card-details{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.card-sumary{
+    margin-top: 2%;;
+    font-family: 'Akshar', sans-serif;
+font-family: 'Anek Latin', sans-serif;
+font-family: 'Arvo', serif;
+font-family: 'Dosis', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.card-img{
+    margin-left: 10px;
+    height: 100%;
+    width: 200px;
+}
+.tag-details{
+    margin-top: 20px;
+}
+.tag{
+    background-color: rgba(242, 242, 242, 1);
+    text-align: center;
+    width: 40px;
+    height: 10px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 13px;
+    font-family: 'Akshar', sans-serif;
+}
+.cardimg{
+    max-width: 100px;
+    width: 200px;
+    height: 100px;
+    max-height: 100px;
+    background-color: antiquewhite;
+    margin: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.article{
+    margin-bottom: 20px;
+}
+.user{
+    position: fixed;
+    top: 90vh;
+}
+
+/*aside blog*/
+#siteTitile{
+    font-size: 7vh;
+}
+.search-box{
+    display: flex;
+    border: 2px solid black;
+    width:15vw;
+    margin:20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#SearchType{
+    outline: none;
+    width: 15vw;
+}
+.search-button{
+    padding-left: 25px;
+}
+
+
+
+  .read-link{
+    text-decoration: none;
+    color:#2196F3
+  }
